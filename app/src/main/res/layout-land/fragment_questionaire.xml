@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/fragment_questionaire">
+
+    <TextView
+        android:id="@+id/mainQuestionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@id/mainQuestion"
+        android:text="1 of 20"
+        android:layout_marginBottom="60px"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainQuestion"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="What is the question?"/>
+
+</LinearLayout>

@@ -1,0 +1,232 @@
+{
+  "version": "0.0.0",
+  "title": "surveysystem",
+  "datetime": "30/11/17-18:16:00",
+  "uploadedby": "heriz",
+  "access": "true",
+  "template": {
+    "id": "001",
+    "title": "generalquiz",
+    "firstlayer": "true",
+    "secondlayer": "true",
+    "thirdlayer": "true",
+    "type": "2"
+  },
+  "layersquestions": [
+    {
+      "id": "001",
+      "message": "The name 'Singapore' is derived from sanskrit. What is the meaning?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "0"
+    },
+    {
+      "id": "002",
+      "message": "What is the name of Singpore's international Airport?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "1"
+    },
+    {
+      "id": "003",
+      "message": "Who founded the first British colony in Singapore?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "2"
+    },
+    {
+      "id": "004",
+      "message": "What language is the medium of instructions in Singapore schools?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "3"
+    },
+    {
+      "id": "005",
+      "message": "If you are in Singapore and you decide to go 'across the causeway', what are you planning to do?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "4"
+    },
+    {
+      "id": "006",
+      "message": "What is the name of the famous street that runs through Singapore's main commercial district?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "5"
+    }
+  ],
+  "layersanswers": [
+    {
+      "id": "001",
+      "message": "01: Lion City",
+      "sub": "false", // this activates 2nd layer
+      "questionid": "001", // which question does this belongs to
+      "seq": "0" // the sequence for this answer in that particular question
+    }, {
+      "id": "002",
+      "message": "02: Dragon City",
+      "sub": "false",
+      "questionid": "001",
+      "seq": "1"
+    }, {
+      "id": "003",
+      "message": "03: Dolphin City",
+      "sub": "false",
+      "questionid": "001",
+      "seq": "2"
+    }, {
+      "id": "004",
+      "message": "04: Tiger City",
+      "sub": "false",
+      "questionid": "001",
+      "seq": "3"
+    },
+    {
+      "id": "005",
+      "message": "01: Orange International Airport",
+      "sub": "false",
+      "questionid": "002",
+      "seq": "0"
+    }, {
+      "id": "006",
+      "message": "02: Kiwi International Airport",
+      "sub": "false",
+      "questionid": "002",
+      "seq": "1"
+    }, {
+      "id": "006",
+      "message": "03: Changi International Airport",
+      "sub": "false",
+      "questionid": "002",
+      "seq": "2"
+    }, {
+      "id": "007",
+      "message": "04: Shinchi International Airport",
+      "sub": "false",
+      "questionid": "002",
+      "seq": "3"
+    },
+    {
+      "id": "008",
+      "message": "01: Sir Thomson Stamford Winner",
+      "sub": "false",
+      "questionid": "003",
+      "seq": "0"
+    }, {
+      "id": "009",
+      "message": "02: Sir Thomas Stamford Raffles",
+      "sub": "false",
+      "questionid": "003",
+      "seq": "1"
+    }, {
+      "id": "010",
+      "message": "03: Michael Jackson",
+      "sub": "false",
+      "questionid": "003",
+      "seq": "2"
+    },
+    {
+      "id": "011",
+      "message": "01: English",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "0"
+    }, {
+      "id": "012",
+      "message": "02: Chinese",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "1"
+    }, {
+      "id": "013",
+      "message": "03: Singlish",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "2"
+    }, {
+      "id": "014",
+      "message": "04: Tamil",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "3"
+    }, {
+      "id": "015",
+      "message": "05: Bahasa Melayu",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "4"
+    },
+    {
+      "id": "016",
+      "message": "01: Go to Europe",
+      "sub": "false",
+      "questionid": "005",
+      "seq": "0"
+    }, {
+      "id": "017",
+      "message": "02: Go to South Africa",
+      "sub": "false",
+      "questionid": "005",
+      "seq": "1"
+    }, {
+      "id": "018",
+      "message": "03: Go to Malaysia",
+      "sub": "false",
+      "questionid": "005",
+      "seq": "2"
+    },
+    {
+      "id": "019",
+      "message": "01: Orange Road",
+      "sub": "false",
+      "questionid": "006",
+      "seq": "0"
+    }, {
+      "id": "020",
+      "message": "02: Orchard Road",
+      "sub": "false",
+      "questionid": "006",
+      "seq": "1"
+    }, {
+      "id": "021",
+      "message": "03: Rose Road",
+      "sub": "false",
+      "questionid": "006",
+      "seq": "2"
+    }
+  ],
+  "layerslastmessages": [
+    {
+      "id": "001",
+      "message": "Great job completing the quiz",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "0",
+      "oneforall": "true"
+    },
+    {
+      "id": "002",
+      "message": "Have a great day",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "1",
+      "oneforall": "true"
+    },
+    {
+      "id": "003",
+      "message": "You are awesome",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "2",
+      "oneforall": "true"
+    }
+  ]
+
+}

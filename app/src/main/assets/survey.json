@@ -1,0 +1,325 @@
+{
+  "version": "0.0.0",
+  "title": "surveysystem",
+  "datetime": "09/11/2017-15:57:00",
+  "uploadedby": "phonemyatt",
+  "access": "true",
+  "template": {
+    "id": "001",
+    "title": "toiletsurvey",
+    "firstlayer": "true",
+    "secondlayer": "true",
+    "thirdlayer": "true",
+    "type": "2"
+  },
+  "layersquestions": [
+    {
+      "id": "001",
+      "message": "How often do you use public toilets?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "0"
+    },
+    {
+      "id": "002",
+      "message": "How would you rate the cleanliness of the public toilets you have used?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "1"
+    },
+    {
+      "id": "003",
+      "message": "When using a public toilet do you",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "2"
+    },
+    {
+      "id": "004",
+      "message": "I wash my hands after doing my business",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "3"
+    },
+    {
+      "id": "005",
+      "message": "Do you think there is adequate toilet provision in this area?",
+      //first question in second layer from A3 of first question?
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "003",
+      "seq": "0"
+    },
+    {
+      "id": "006",
+      "message": "What deters you from using public toilets?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "004",
+      "seq": "1"
+    },
+    {
+      "id": "007",
+      "message": "Do you fear of catching germs while using public toilets?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "008",
+      "seq": "0"
+    },
+    {
+      "id": "008",
+      "message": "In the toilet where do you have the most fear of catching germs?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "009",
+      "seq": "1"
+    },
+    {
+      "id": "009",
+      "message": "Would a method of sanitizing the toilet seat before use make you feel more comfortable using a public toilet?",
+      "multi": "true",
+      "templateid": "001",
+      "answerid": "009",
+      "seq": "0"
+    }
+  ],
+  "layersanswers": [
+    {
+      "id": "001",
+      "message": "Regular",
+      "sub": "false",
+      "questionid": "001",
+      "seq": "0"
+    }, {
+      "id": "002",
+      "message": "Occasionally",
+      "sub": "false",
+      "questionid": "001",
+      "seq": "1"
+    }, {
+      "id": "003",
+      "message": "Only if you have to",
+      "sub": "true",
+      "questionid": "001",
+      "seq": "2"
+    }, {
+      "id": "004",
+      "message": "Never",
+      "sub": "true",
+      "questionid": "001",
+      "seq": "3"
+    },
+    {
+      "id": "005",
+      "message": "Excellent",
+      "sub": "false",
+      "questionid": "002",
+      "seq": "0"
+    }, {
+      "id": "006",
+      "message": "Good",
+      "sub": "false",
+      "questionid": "002",
+      "seq": "1"
+    }, {
+      "id": "007",
+      "message": "Average",
+      "sub": "false",
+      "questionid": "002",
+      "seq": "2"
+    }, {
+      "id": "008",
+      "message": "Poor",
+      "sub": "true",
+      "questionid": "002",
+      "seq": "3"
+    }, {
+      "id": "009",
+      "message": "Bad",
+      "sub": "true",
+      "questionid": "002",
+      "seq": "4"
+    },
+    {
+      "id": "010",
+      "message": "Yes",
+      "sub": "false",
+      "questionid": "005",
+      "seq": "0"
+    }, {
+      "id": "011",
+      "message": "No",
+      "sub": "false",
+      "questionid": "005",
+      "seq": "1"
+    },
+    {
+      "id": "012",
+      "message": "Dirty",
+      "sub": "false",
+      "questionid": "006",
+      "seq": "0"
+    }, {
+      "id": "013",
+      "message": "Smelly",
+      "sub": "false",
+      "questionid": "006",
+      "seq": "1"
+    }, {
+      "id": "014",
+      "message": "No Water Hose/Tissue",
+      "sub": "false",
+      "questionid": "006",
+      "seq": "2"
+    }, {
+      "id": "015",
+      "message": "Germs",
+      "sub": "false",
+      "questionid": "006",
+      "seq": "3"
+    },
+    {
+      "id": "016",
+      "message": "Sit on the toilet seat",
+      "sub": "false",
+      "questionid": "003",
+      "seq": "0"
+    }, {
+      "id": "017",
+      "message": "Squat",
+      "sub": "false",
+      "questionid": "003",
+      "seq": "1"
+    }, {
+      "id": "018",
+      "message": "Apply tissue on the toilet seat",
+      "sub": "false",
+      "questionid": "003",
+      "seq": "2"
+    },
+    {
+      "id": "019",
+      "message": "Always",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "0"
+    }, {
+      "id": "020",
+      "message": "Frequently",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "1"
+    }, {
+      "id": "021",
+      "message": "Sometimes",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "2"
+    }, {
+      "id": "022",
+      "message": "Never",
+      "sub": "false",
+      "questionid": "004",
+      "seq": "3"
+    },
+    {
+      "id": "023",
+      "message": "Yes",
+      "sub": "false",
+      "questionid": "007",
+      "seq": "0"
+    }, {
+      "id": "024",
+      "message": "No",
+      "sub": "false",
+      "questionid": "007",
+      "seq": "1"
+    },
+    {
+      "id": "025",
+      "message": "Cubical door",
+      "sub": "false",
+      "questionid": "008",
+      "seq": "0"
+    }, {
+      "id": "026",
+      "message": "Toilet seat",
+      "sub": "false",
+      "questionid": "008",
+      "seq": "1"
+    }, {
+      "id": "027",
+      "message": "Tissue dispenser",
+      "sub": "false",
+      "questionid": "008",
+      "seq": "2"
+    }, {
+      "id": "028",
+      "message": "Wash basin",
+      "sub": "false",
+      "questionid": "008",
+      "seq": "3"
+    }, {
+      "id": "029",
+      "message": "Other",
+      "sub": "false",
+      "questionid": "008",
+      "seq": "4"
+    },
+    {
+      "id": "030",
+      "message": "Definitely",
+      "sub": "false",
+      "questionid": "009",
+      "seq": "0"
+    }, {
+      "id": "031",
+      "message": "Yes",
+      "sub": "false",
+      "questionid": "009",
+      "seq": "1"
+    }, {
+      "id": "032",
+      "message": "Unsure",
+      "sub": "false",
+      "questionid": "009",
+      "seq": "2"
+    }, {
+      "id": "033",
+      "message": "No",
+      "sub": "false",
+      "questionid": "009",
+      "seq": "3"
+    }
+  ],
+  "layerslastmessages": [
+    {
+      "id": "001",
+      "message": "Thank you for your feedback",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "0",
+      "oneforall": "true"
+    },
+    {
+      "id": "002",
+      "message": "Have a great day",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "1",
+      "oneforall": "true"
+    },
+    {
+      "id": "003",
+      "message": "You are awsome",
+      "templateid": "001",
+      "answerid": "",
+      "seq": "2",
+      "oneforall": "true"
+    }
+  ]
+}
