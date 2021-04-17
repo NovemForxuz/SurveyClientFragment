@@ -1,3 +1,3 @@
 # SurveyClientFragment
 
-Android survey application. 
+Internship project: Android survey application. 
