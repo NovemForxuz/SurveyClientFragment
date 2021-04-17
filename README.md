@@ -1,0 +1,3 @@
+# SurveyClientFragment
+
+Android survey application. 
